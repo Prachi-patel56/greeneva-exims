@@ -18,14 +18,16 @@
   "params": {
     "tag_manager_id": "",
     "contact_form_action": "#",
-    "footer_content": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "footer_content": "At Greeneva, we nourish communities by providing healthy food and fostering global connections. Our mission prioritizes social responsibility, sustainability, and innovation.",
     "copyright": "Designed & Developed By [Themefisher](https:www.themefisher.com)"
   },
 
   "contact_info": {
-    "phone": "+887887998",
-    "email": "info@andromeda.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624"
+    "phone": "+91 9925318627",
+    "email": "Info@greenevaexims.com",
+    "email2": "Greenevaexims@gmail.com",
+    "destination": "Greeneva Exims",
+    "location": "427, balmukund sqaure,<br> near naheru chowkdi, Darshan Society, GIDC, Dahegam, Gujarat 382305"
   },
 
   "nav_button": {
@@ -42,11 +44,11 @@
 
   "call_to_action": {
     "enable": true,
-    "title": "Get Andromeda Now",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.",
+    "title": "Get In Touch With Us",
+    "content": "Ready to experience the finest quality vegetables? <br>Contact us today to learn more about our products and place your order. Our team is here to assist you with any inquiries and ensure a seamless export experience.",
     "button": {
-      "label": "Download The Theme",
-      "link": "https://themefisher.com/products/andromeda-light-nextjs"
+      "label": "Reach Us",
+      "link": "/contact"
     }
   },
 

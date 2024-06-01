@@ -7,13 +7,15 @@
         "border": "#dee2e6",
         "border_secondary": "#ffece4",
         "theme_light": "#fffaf3",
-        "theme_dark": "#1a202c"
+        "theme_dark": "#1a202c",
+        "light_clr":"#e9f7e3"
       },
       "text_color": {
         "default": "#666",
         "dark": "#222",
         "light": "#ceced0",
-        "blue": "#052e5c"
+        "blue": "#052e5c",
+        "primary": "#1e9f44"
       }
     }
   },

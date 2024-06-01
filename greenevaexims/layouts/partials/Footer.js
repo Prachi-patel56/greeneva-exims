@@ -8,11 +8,11 @@ import Link from "next/link";
 
 const Footer = () => {
   const { copyright, footer_content } = config.params;
-  const { email, phone, location } = config.contact_info;
+  const { email, email2, phone, location,destination } = config.contact_info;
   return (
     <footer className="">
       <div className="container">
-        <div className="row border-y border-border py-12">
+        <div className="row border-y border-border py-8">
           <div className="animate md:col-6 lg:col-3">
             <Logo />
             {markdownify(footer_content, "p", "mt-3")}
@@ -20,7 +20,16 @@ const Footer = () => {
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
             <h3 className="h5">Socials</h3>
             <div className="mt-5">
-              {email && <Link href={`mailto:${email}`}>{email}</Link>}
+              {email && (
+                <p>
+                  <Link href={`mailto:${email}`}>{email}</Link>
+                </p>
+              )}
+              {email2 && (
+                <p>
+                  <Link href={`mailto:${email2}`}>{email2}</Link>
+                </p>
+              )}
               {/* social icons */}
               <Social source={social} className="social-icons mt-5" />
             </div>
@@ -44,7 +53,13 @@ const Footer = () => {
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
             <h3 className="h5">Location & Contact</h3>
             <ul className="mt-5 leading-10">
-              <li>{markdownify(location)}</li>
+              
+              <li>
+                
+                <Link href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(destination)}`} target="_blank" rel="noopener noreferrer">
+                {markdownify(location)}
+              </Link>
+              </li>
               {phone && (
                 <li>
                   <Link href={`tel:${phone}`}>{phone}</Link>
@@ -53,10 +68,10 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        {/* copyright */}
+        {/* copyright
         <div className=" py-6 text-center">
           {markdownify(copyright, "p", "footer-copy-write")}
-        </div>
+        </div> */}
       </div>
     </footer>
   );

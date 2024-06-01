@@ -15,12 +15,14 @@ import ShortIntro from "@layouts/components/ShortInro";
 import SpecialFeature from "@layouts/components/SpecialFeatures";
 import Testimonials from "@layouts/components/Testimonials";
 import Link from "next/link";
+import aboutData from "@config/about.json"
+import HomeBanner from "@layouts/components/homeBanner";
 
 const Home = () => {
   const { features } = featuresData;
   const paginationRef = useRef(null);
   const testimonialPaginationRef = useRef(null);
-  const { banner, brands } = bannerData;
+  const { banners, brands } = bannerData;
   useEffect(() => {
     const ctx = gsap.context(() => {
       const banner = document.querySelector(".banner");
@@ -64,37 +66,7 @@ const Home = () => {
         },
       });
 
-      const position = (banner.offsetHeight - bannerBg.offsetHeight) * 0.4;
-      parallaxTl
-        .fromTo(
-          bannerBg,
-          {
-            y: 0,
-          },
-          {
-            y: -position,
-          }
-        )
-        .fromTo(
-          bannerContent,
-          {
-            y: 0,
-          },
-          {
-            y: position,
-          },
-          "<"
-        )
-        .fromTo(
-          ".banner-bg .circle",
-          {
-            y: 0,
-          },
-          {
-            y: position,
-          },
-          "<"
-        );
+
     });
 
     return () => ctx.revert();
@@ -102,118 +74,25 @@ const Home = () => {
 
   return (
     <Base>
-      <section className="section banner pt-0">
-        <div className="container-xl">
-          <div className="relative">
-            <div className="bg-theme banner-bg col-12 absolute left-0 top-0">
-              <Circle
-                className="circle left-[10%] top-12"
-                width={32}
-                height={32}
-                fill={false}
-              />
-              <Circle
-                className="circle left-[2.5%] top-[29%]"
-                width={85}
-                height={85}
-              />
-              <Circle
-                className="circle bottom-[48%] left-[22%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="circle bottom-[37%] left-[15%]"
-                width={47}
-                height={47}
-                fill={false}
-              />
-              <Circle
-                className="circle bottom-[13%] left-[6%]"
-                width={62}
-                height={62}
-                fill={false}
-              />
-              <Circle
-                className="circle right-[12%] top-[15%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="circle right-[2%] top-[30%]"
-                width={73}
-                height={73}
-                fill={false}
-              />
-              <Circle
-                className="circle right-[19%] top-[48%]"
-                width={37}
-                height={37}
-                fill={false}
-              />
-              <Circle
-                className="circle right-[33%] top-[54%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="circle bottom-[20%] right-[3%]"
-                width={65}
-                height={65}
-              />
-            </div>
-            <div className="row overflow-hidden rounded-2xl">
-              <div className="col-12">
-                <div className="row relative justify-center pb-10">
-                  <div className="banner-content col-10 pb-10 pt-20 text-center">
-                    {markdownify(
-                      banner.title,
-                      "h1",
-                      "mb-8 banner-title opacity-0"
-                    )}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row border-y border-border py-5">
-              <div className="animate from-right col-12">
-                <Swiper
-                  loop={true}
-                  slidesPerView={3}
-                  breakpoints={{
-                    992: {
-                      slidesPerView: 5,
-                    },
-                  }}
-                  spaceBetween={20}
-                  modules={[Autoplay]}
-                  autoplay={{ delay: 3000 }}
-                >
-                  {brands.map((brand, index) => (
-                    <SwiperSlide
-                      className=" h-20 cursor-pointer px-6 py-6 grayscale  transition hover:grayscale-0 lg:px-10"
-                      key={"brand-" + index}
-                    >
-                      <div className="relative h-full">
-                        <ImageFallback
-                          className="object-contain"
-                          src={brand}
-                          sizes="100vw"
-                          alt=""
-                          width={425}
-                          height={487}
-                          priority={true}
-                        />
-                      </div>
-                    </SwiperSlide>
-                  ))}
-                </Swiper>
-              </div>
-            </div>
+      <HomeBanner/>      
+      <div className="section container pt-3">
+        <div className="row items-center justify-center">
+          <div className="about-image relative p-[60px] animate md:col-6 lg:col-5">
+            <ImageFallback
+              className="animate relative w-full rounded-2xl"
+              src={aboutData.mission.image}
+              width={525}
+              height={587}
+              alt=""
+            />
+          </div>
+          <div className="animate md:col-6 lg:col-4">
+            <p>{aboutData.mission.subtitle}</p>
+            {markdownify(aboutData.mission.title, "h2", "section-title bar-left mt-4")}
+            {markdownify(aboutData.mission.content, "p", "mt-10")}
           </div>
         </div>
-      </section>
-
+      </div>
       {/* Features */}
       <section className="section">
         <div className="container text-center">
@@ -247,9 +126,17 @@ const Home = () => {
             >
               {features.list.map((item, index) => (
                 <SwiperSlide key={"feature-" + index}>
-                  <div className="feature-card m-4 rounded-md border border-transparent px-7 py-16 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300  hover:border-[#ffece4] hover:shadow-none">
+                  <div className="feature-card m-4 rounded-md border border-transparent px-7 py-7 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300  hover:border-[#ffece4] hover:shadow-none">
                     <div className="feature-card-icon inline-flex h-20 w-20 items-center justify-center rounded-md border border-[#fff7f3] text-primary">
-                      <FeatherIcon icon={item.icon} />
+                      {/* <FeatherIcon icon={item.icon} /> */}
+                      <Image
+                        priority={true}
+                        width={200}
+                        height={200}
+                        src={item.icon}
+                        sizes="100vw"
+                        alt="Description of image 1"
+                      />
                     </div>
                     <h3 className="h4 mb-5 mt-6">{item.title}</h3>
                     <p>{item.content}</p>
@@ -265,13 +152,13 @@ const Home = () => {
       </section>
 
       {/* Short Into */}
-      <ShortIntro />
+      {/* <ShortIntro /> */}
 
       {/* Special Features */}
       <SpecialFeature />
 
       {/* Testimonial */}
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       {/* Cta */}
       <Cta />

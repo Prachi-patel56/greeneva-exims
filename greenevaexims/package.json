@@ -13,6 +13,7 @@
   "dependencies": {
     "disqus-react": "^1.1.5",
     "feather-icons-react": "^0.6.2",
+    "framer-motion": "^11.2.10",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
     "gsap": "^3.11.4",
@@ -23,6 +24,7 @@
     "react-dom": "18.2.0",
     "react-gtm-module": "^2.0.11",
     "react-icons": "^4.7.1",
+    "react-intersection-observer": "^9.10.2",
     "react-lite-youtube-embed": "^2.3.52",
     "react-lite-yt-embed": "^1.2.7",
     "react-syntax-highlighter": "^15.5.0",

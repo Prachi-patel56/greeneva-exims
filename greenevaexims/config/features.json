@@ -1,38 +1,38 @@
 {
-    "features": {
+  "features": {
     "sub_title": "SPECIAL FEATURES",
     "title": "Elements To </br> Get You Started",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.",
+    "description": "At Greeneva, we understand the importance of food safety and quality. That's why we have strict quality control measures in place, including regular inspections and testing, to ensure that our products meet industry standards.",
     "list": [
       {
-        "icon": "lock",
-        "title": "Updated Security",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
+        "icon": "/images/about/quality-assuarance.jpeg",
+        "title": "Quality Assurance",
+        "content": "Ensuring top-notch quality, our vegetables undergo rigorous testing to meet international export standards. Trust us for the freshest, safest produce delivered to your doorstep."
       },
       {
-        "icon": "wind",
-        "title": "Magnetic Turning",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
+        "icon": "/images/about/timely-delivery.png",
+        "title": "Timely Delivery",
+        "content": "From meticulous quality checks to prompt delivery, our vegetables are carefully handled at every step to ensure peak freshness and compliance with international standards."
       },
       {
-        "icon": "shield",
-        "title": "Secured & up-to-date",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
+        "icon": "/images/about/packaging.png",
+        "title": "Secure Packaging",
+        "content": "Our advanced packaging methods guarantee that your vegetables arrive in perfect condition, maintaining their quality and safety throughout the transit."
       },
       {
-        "icon": "link",
-        "title": "Instant Link Sharing",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
+        "icon": "/images/about/eco-friendly.png",
+        "title": "Eco-Friendly Practices",
+        "content": "We are committed to sustainable farming and eco-friendly packaging, ensuring that our processes are as kind to the environment as they are to our customers."
       },
       {
-        "icon": "lock",
-        "title": "Updated Security",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
+        "icon": "/images/about/global-reach.png",
+        "title": "Global Reach",
+        "content": "With a robust logistics network, we efficiently deliver our premium vegetables to various international markets, ensuring a seamless export experience."
       },
       {
-        "icon": "wind",
-        "title": "Magnetic Turning",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
+        "icon": "/images/about/improvemnets.png",
+        "title": "Continuous Improvement",
+        "content": "We constantly innovate and improve our processes to meet the evolving needs of the global market, ensuring the highest standards of quality and efficiency."
       }
     ]
   }

@@ -20,38 +20,27 @@ function Cta() {
             </Link>
           </div>
           <div className="bg-theme animated-bg absolute top-0 left-0 w-full after:hidden">
-            <ImageFallback
-              src="/images/wave.svg"
-              fill={true}
-              sizes="100vw"
-              alt="bg wave"
-            />
             <Circle
               className="left-[10%] top-12"
               width={32}
               height={32}
-              fill={false}
+              fill={true}
             />
-            <Circle className="left-[3%] bottom-[13%]" width={85} height={85} />
+
             <Circle
-              className="left-[15%] bottom-[35%]"
-              width={47}
-              height={47}
-              fill={false}
+              className="left-[19%] bottom-[25%]"
+              width={40}
+              height={40}
+              fill={true}
             />
 
             <Circle className="right-[12%] top-[12%]" width={20} height={20} />
-            <Circle
-              className="right-[2%] bottom-[30%]"
-              width={73}
-              height={73}
-              fill={false}
-            />
+            
             <Circle
               className="right-[19%] bottom-[16%]"
               width={37}
               height={37}
-              fill={false}
+              fill={true}
             />
           </div>
         </div>

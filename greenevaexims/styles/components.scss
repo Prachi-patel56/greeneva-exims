@@ -1,6 +1,6 @@
 // section style
 .section {
-  @apply py-16;
+  @apply py-8;
 }
 
 // container
@@ -87,7 +87,7 @@
 // form style
 .form-input,
 .form-textarea {
-  @apply border-primary  border border-transparent bg-theme-light rounded border-l-primary focus:border-primary focus:border focus:ring-transparent py-4;
+  @apply border-primary  border border-transparent bg-theme-primary rounded border-l-primary focus:border-primary focus:border focus:ring-transparent py-4;
 }
 
 // content style
@@ -123,7 +123,7 @@
   @apply relative bg-[50%] bg-contain h-full  -z-[1]  rounded-2xl;
 
   &::before {
-    @apply content-[''] absolute left-0 top-0 w-full h-full rounded-[30px] bg-contain bg-no-repeat bg-[#fff7f3] scale-[.3] transition-transform duration-[1500ms] ease-[cubic-bezier(.105,.84,.44,1)] -z-[1];
+    @apply content-[''] absolute left-0 top-0 w-full h-full rounded-[30px] bg-contain bg-no-repeat bg-[#deefd7] scale-[.3] transition-transform duration-[1500ms] ease-[cubic-bezier(.105,.84,.44,1)] -z-[1];
   }
 
   &::after {

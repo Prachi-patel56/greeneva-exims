@@ -52,6 +52,7 @@ module.exports = {
         border: theme.colors.default.theme_color.border,
         "border-secondary": theme.colors.default.theme_color.border_secondary,
         "theme-light": theme.colors.default.theme_color.theme_light,
+        "theme-primary": theme.colors.default.theme_color.light_clr,
         "theme-dark": theme.colors.default.theme_color.theme_dark,
         "theme-dark": theme.colors.default.theme_color.theme_dark,
       },
