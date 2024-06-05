@@ -16,7 +16,7 @@ import SpecialFeature from "@layouts/components/SpecialFeatures";
 import Testimonials from "@layouts/components/Testimonials";
 import Link from "next/link";
 import aboutData from "@config/about.json"
-import HomeBanner from "@layouts/components/homeBanner";
+import HomeBanner from "@layouts/components/HomeBanner";
 
 const Home = () => {
   const { features } = featuresData;

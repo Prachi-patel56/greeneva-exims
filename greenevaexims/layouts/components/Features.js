@@ -45,7 +45,7 @@ const FeaturesSection = () => {
         >
           {features.list.map((item, index) => (
             <SwiperSlide key={"feature-" + index}>
-              <div className="feature-card m-4 rounded-md border border-transparent py-16 px-7 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300  hover:border-[#ffece4] hover:shadow-none">
+              <div className="feature-card m-4 rounded-md border border-transparent py-16 px-7 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300  hover:border-[#1e9f44] hover:shadow-none">
                 <div className="feature-card-icon inline-flex h-20 w-20 items-center justify-center rounded-md border border-[#fff7f3] text-primary">
                   <FeatherIcon icon={item.icon} />
                 </div>

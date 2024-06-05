@@ -18,12 +18,14 @@
   "params": {
     "tag_manager_id": "",
     "contact_form_action": "#",
-    "footer_content": "At Greeneva, we nourish communities by providing healthy food and fostering global connections. Our mission prioritizes social responsibility, sustainability, and innovation.",
+    "footer_content": "Greeneva, an internationally recognized import-export company, excels in fresh potato cultivation, contract farming, wholesale supply, bulk storage, and export. We prioritize enduring client relationships based on trust, respect, and transparency.",
     "copyright": "Designed & Developed By [Themefisher](https:www.themefisher.com)"
   },
 
   "contact_info": {
     "phone": "+91 9925318627",
+    "phone1": "+91 9723350241",
+    "phone2": "+91 9998289668",
     "email": "Info@greenevaexims.com",
     "email2": "Greenevaexims@gmail.com",
     "destination": "Greeneva Exims",
@@ -37,9 +39,9 @@
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
-    "meta_image": "/images/og-image.png",
-    "meta_description": "Andromeda-light Nextjs Blog Template"
+    "meta_author": "Greenevaexims",
+    "meta_image": "/images/logo.png",
+    "meta_description": "Greeneva, an internationally recognized import-export company, excels in fresh potato cultivation, contract farming, wholesale supply, bulk storage, and export. We prioritize enduring client relationships based on trust, respect, and transparency."
   },
 
   "call_to_action": {

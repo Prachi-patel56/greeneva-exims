@@ -9,23 +9,8 @@
       "url": "/about"
     },
     {
-      "name": "Blog",
+      "name": "Products",
       "url": "/posts"
-    },
-    {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Terms & Conditions",
-          "url": "/terms-policy"
-        }
-      ]
     },
     {
       "name": "Contact",
@@ -38,12 +23,12 @@
       "url": "/about"
     },
     {
-      "name": "Blog",
-      "url": "/blog"
-    },
+      "name": "Products",
+      "url": "/posts"
+    }, 
     {
-      "name": "Terms & Conditions",
-      "url": "/terms-policy"
+      "name": "Contact",
+      "url": "/contact"
     }
   ]
 }

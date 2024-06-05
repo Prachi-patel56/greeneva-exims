@@ -4,29 +4,30 @@
     "draft": false,
     "about_us": {
         "subtitle": "WHO WE ARE",
-        "title": "Hello, We’re Andromeda Here For Your Help",
-        "content": "Your online Health & Fitness companion that offers free assistance on its Facebook Group and provides quality paid guided personal training packages by and through website. We are the first ever, online manifesto in Bangladesh to make place you will select when you think of getting fit",
-        "image": "/images/about/01.jpg"
+        "title": "Hello, We’re Greeneva Here For Your Help",
+        "content": "Greeneva is an internationally recognized import-export company. Our expertise lies in fresh potato cultivation, contract farming, wholesale supply, bulk storage, and export, forming a robust foundation in the field. Greeneva places a strong emphasis on cultivating and nurturing enduring relationships with its clients, built on the foundations of trust, respect, and transparency.",
+        "content2": "Greeneva has an in-house cold storage facility known as 'Shree Umiya Cold Storage', boasting a significant capacity 10.000 metrictons.",
+        "image": "/images/about/potato-package.jpeg"
     },
     "works": {
         "subtitle": "OUR WORKS",
         "title": "What We Do",
         "list": [
             {
-                "title": "Building A New Class",
-                "content": "Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems"
+                "title": "1. Procuring Seed",
+                "content": "With a decade of expertise in the agricultural sector, our team is dedicated to sourcing the highest quality seeds for potato farming. We understand the importance of selecting the best seeds to ensure a robust and healthy crop, and we work closely with trusted suppliers to procure seeds that meet stringent quality standards."
             },
             {
-                "title": "Design For Anyone",
-                "content": "Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems"
+                "title": "2. Contract Farming",
+                "content": "Our contract farming services ensure that farmers have access to the resources and support they need to grow high-quality potatoes. We provide comprehensive guidance and technical assistance throughout the growing season, from planting to harvesting, ensuring a consistent and reliable supply of potatoes."
             },
             {
-                "title": "Creative Flair Design",
-                "content": "Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems"
+                "title": "3. Stock Row-Potatoes",
+                "content": "We ensure the longevity and quality of our potatoes by utilizing state-of-the-art cold storage facilities. Our advanced storage solutions maintain optimal temperature and humidity levels, preserving the freshness and nutritional value of the potatoes until they are ready for distribution."
             },
             {
-                "title": "Building Products",
-                "content": "Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems"
+                "title": "4. Supply To Processing Companies",
+                "content": "Our supply chain management ensures that freshly harvested potatoes are delivered promptly to processing companies. We pride ourselves on our efficient logistics and transportation networks, which guarantee that our potatoes reach processing facilities in optimal condition, ready for further processing into various products."
             }
         ]
     },
@@ -35,6 +36,13 @@
         "title": "Main Vision And Mission Of Our Company",
         "content": "At Greeneva, we believe that nourishing communities across the alobe is more than just providina access to healthy food and economic opportunities. It's about fostering a sense of connection and belonging that transcends borders and cultures. Our mission is to build a better world, one where social responsibility, sustainability, and innovation are at the forefront of everything we do.",
         "image": "/images/about/cold-storage.jpg"
+    },
+
+    "vission": {
+        "subtitle": "OUR MISSION",
+        "title": "Main Vision And Mission Of Our Company",
+        "content": "At Greeneva, we believe that nourishing communities across the alobe is more than just providina access to healthy food and economic opportunities. It's about fostering a sense of connection and belonging that transcends borders and cultures. Our mission is to build a better world, one where social responsibility, sustainability, and innovation are at the forefront of everything we do.",
+        "image": "/images/about/potatoes-vegetables-erdfrucht-bio-144248.jpeg"
     },
     "video": {
         "subtitle": "A SHORT VIDEO",
@@ -45,17 +53,14 @@
     },
     "clients": {
         "subtitle": "OUR CLIENTS",
-        "title": "Trusted By Thousands Companies",
+        "title": "Trusted By Many More Companies",
         "brands": [
-            "/images/brands/02-colored.png",
-            "/images/brands/01-colored.png",
-            "/images/brands/03-colored.png",
-            "/images/brands/04-colored.png",
-            "/images/brands/05-colored.png",
-            "/images/brands/06-colored.png",
-            "/images/brands/04-colored.png",
-            "/images/brands/05-colored.png",
-            "/images/brands/06-colored.png"
+            "/images/brands/atop-food.png",
+            "/images/brands/sabar-dairy.png",
+            "/images/brands/hyfun-foods.png",
+            "/images/brands/funwave.png",
+            "/images/brands/chill-fill.png",
+            "/images/brands/chhedas.png"
         ]
     },
     "our_member": {

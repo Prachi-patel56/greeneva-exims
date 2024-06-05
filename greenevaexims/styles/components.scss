@@ -79,7 +79,10 @@
     }
   }
 }
-
+.product-image{
+  width: 450px;
+  height: auto;
+}
 .active-tab {
   @apply bg-theme-light ;
 }

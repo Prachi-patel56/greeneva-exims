@@ -25,11 +25,11 @@ const Header = () => {
     let prevScroll = 0;
     window.addEventListener("scroll", () => {
       const scrollY = window.scrollY;
-      scrollY > 0 && setSticky(true) ;
+      scrollY > 0 && setSticky(true);
       if (scrollY > headerHeight) {
         prevScroll > scrollY && setDirection(1);
         prevScroll = scrollY;
-      } 
+      }
     });
   }, []);
 
@@ -51,9 +51,8 @@ const Header = () => {
 
           <ul
             id="nav-menu"
-            className={`navbar-nav order-2 w-full justify-center md:w-auto md:space-x-2 lg:order-1 lg:flex ${
-              !showMenu && "hidden"
-            }`}
+            className={`navbar-nav order-2 w-full justify-center md:w-auto md:space-x-2 lg:order-1 lg:flex ${!showMenu && "hidden"
+              }`}
           >
             {main.map((menu, i) => (
               <React.Fragment key={`menu-${i}`}>
@@ -70,9 +69,8 @@ const Header = () => {
                         <li className="nav-dropdown-item" key={`children-${i}`}>
                           <Link
                             href={child.url}
-                            className={`nav-dropdown-link block transition-all ${
-                              asPath === child.url && "active"
-                            }`}
+                            className={`nav-dropdown-link block transition-all ${asPath === child.url && "active"
+                              }`}
                           >
                             {child.name}
                           </Link>
@@ -84,9 +82,8 @@ const Header = () => {
                   <li className="nav-item">
                     <Link
                       href={menu.url}
-                      className={`nav-link block ${
-                        asPath === menu.url && "active"
-                      }`}
+                      className={`nav-link block ${asPath === menu.url && "active"
+                        }`}
                     >
                       {menu.name}
                     </Link>
@@ -96,23 +93,25 @@ const Header = () => {
             ))}
             {config.nav_button.enable && (
               <li className="nav-item lg:hidden">
-                <Link
+                <a
                   className="btn btn-primary hidden lg:flex"
-                  href={config.nav_button.link}
+                  href="/images/Greeneva-exims-brochure.pdf"
+                  download
                 >
                   {config.nav_button.label}
-                </Link>
+                </a>
               </li>
             )}
           </ul>
           <div className="order-1 ml-auto flex items-center md:ml-0">
             {config.nav_button.enable && (
-              <Link
-                className="btn btn-primary hidden lg:flex"
-                href={config.nav_button.link}
-              >
-                {config.nav_button.label}
-              </Link>
+              <a
+              className="btn btn-primary hidden lg:flex"
+              href="/images/Greeneva-exims-brochure.pdf"
+              download
+            >
+              {config.nav_button.label}
+            </a>
             )}
 
             {/* navbar toggler */}

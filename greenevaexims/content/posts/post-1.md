@@ -1,6 +1,6 @@
 ---
-title: The Real Product From the Buyers improvements in Overflow basis.
-image: /images/blog/01.jpg
+title: Laukar Potatoes
+image: /images/blog/laukar-potato.jpg
 author:
   name: Abdullah Al Shifat
   avatar: /images/author/abdullah.jpg
@@ -8,7 +8,7 @@ date: 2022-04-04T05:00:00Z
 draft: false
 ---
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
+Utilization : Easy to cook, floury texture, mild flavor, free from discoloration after cooking. Table Potato. It can be grown both in Kharif and Rabi seasons. It can build up yields rapidly under warmer climate.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
 

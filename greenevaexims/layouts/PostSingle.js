@@ -10,6 +10,7 @@ import Image from "next/image";
 import Cta from "./components/Cta";
 import ImageFallback from "./components/ImageFallback";
 import Post from "./partials/Post";
+import postData from "@config/products.json";
 
 const PostSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
   let { description, title, date, image, author } = frontmatter;
@@ -73,8 +74,8 @@ const PostSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
           <div className="section mt-16">
             <h2 className="section-title text-center">Recent Articles</h2>
             <div className="row justify-center">
-              {recentPosts.slice(0, 2).map((post, index) => (
-                <div key={"post-" + index} className="animate mt-16 lg:col-5">
+              {postData.products.map((post, index) => (
+                <div key={"post-" + index} className="animate mt-16 lg:col-3">
                   <Post post={post} />
                 </div>
               ))}

@@ -1,0 +1,194 @@
+{
+    "products": {
+      "chips": [
+        {
+          "title": "LADY ROSETTA (L. R.) POTATOES",
+          "image": "/images/blog/lady-roseto.jpeg",
+          "content": {
+            "utilization": "Good Tasting variety, Boiling, Baking and good for Chipping.",
+            "yield": "High yielding variety of attractive appearance, very uniform in size; rather susceptible to internal bruising. Short dormancy period; very high dry matter.",
+            "primary_use": "Boiling, Baking and Chipping.",
+            "availability_harvest": "January Ending to March",
+            "availability_cipc": "February to September with sugar level controlled.",
+            "features": {
+              "shape": "Round",
+              "size": "45mm to 90mm",
+              "skin": "Flaky Red Color",
+              "maturity": "90 to 110 Days",
+              "eyes": "Shallow",
+              "flesh": "Cream to Light Yellow"
+            }
+          }
+        },
+        {
+            "title": "TOURUS POTATOES",
+            "image": "/images/blog/touras.jpg",
+            "content": {
+              "utilization": "Ideal for both chipping and fresh frying applications, delivering consistent quality and taste",
+              "yield": "This variety boasts an impressive yield of 35 tons per hectare. It exhibits medium dormancy lasting between 6 to 8 weeks and showcases resilience to late blight while also demonstrating tolerance to frost.",
+              "primary_use": "Particularly suitable for the production of instant flakes and chips, catering to the demands of the snack industry with its superior texture and flavor profile.",
+              "availability_harvest": "Late January Ending to March",
+              "availability_cipc": "February to September with sugar level controlled.",
+              "features": {
+                "shape": "Oval",
+                "size": "40mm to 65mm",
+                "skin": "Smooth",
+                "maturity": "85 to 100 Days",
+                "eyes": "Fleet",
+                "flesh": "White"
+              }
+            }
+          },
+          {
+            "title": "CHIPSONA POTATOES",
+            "image": "/images/blog/chipsona.jpeg",
+            "content": {
+              "utilization": "Excellent for Chipping and Fresh Frying.",
+              "yield": "35 ton per hector, Medium Dormancy (6–8 Weeks), Resistant to Late Blight and tolerant to frost.",
+              "primary_use": "Easy to cook, waxy texture, mild flavor, free from discoloration after cooking. Due to high dry matter, low reducing sugars and low phenols, the variety is highly suitable for making chips and French fries.",
+              "availability_harvest": "January Ending to March",
+              "availability_cipc": "February to September with sugar level controlled.",
+              "features": {
+                "shape": "Medium Round Oval",
+                "size": "45mm to 90mm",
+                "skin": "Smooth & White Color",
+                "maturity": "90 to 110 Days",
+                "eyes": "Fleet",
+                "flesh": "Yellow"
+              }
+            }
+          }
+      ],
+      "french_fries": [
+        {
+          "title": "SANTANA POTATOES",
+          "image": "/images/blog/santana.jpeg",
+          "content": {
+            "utilization": "Being used for excellent Chip and French Fry quality.",
+            "yield": "With it’s high yield in widely separated areas, attractive tubers, consistently high specific gravity, Excellent chipping quality and resistance to several pests, Atlantic potato should be a highly valuable round white variety for processing and the fresh market.",
+            "primary_use": "Fresh Market, Chipping.",
+            "availability_harvest": "January Ending to March",
+            "availability_cipc": "February to September with sugar level controlled.",
+            "features": {
+              "shape": "Large Oval",
+              "size": "45mm to 120mm",
+              "skin": "Smooth & yellow Color",
+              "maturity": "100 to 150 Days",
+              "eyes": "Fairly Deep Eyes",
+              "flesh": "Yellow"
+            }
+          }
+        },
+        {
+            "title": "SARPOMIRA POTATOES",
+            "image": "/images/blog/sarpomira.jpg",
+            "content": {
+                "utilization": "Being used for excellent Chip and French Fry quality.",
+                "yield": "With it’s high yield in widely separated areas, attractive tubers, consistently high specific gravity, Excellent chipping quality and resistance to several pests, Atlantic potato should be a highly valuable round white variety for processing and the fresh market.",
+                "primary_use": "Fresh Market, Chipping.",
+                "availability_harvest": "January Ending to March",
+                "availability_cipc": "February to September with sugar level controlled.",
+              "features": {
+                "shape": "Large Oval",
+                "size": "45mm to 90mm",
+                "skin": "Flaky Red Color",
+                "maturity": "90 to 110 Days",
+                "eyes": "Fleet",
+                "flesh": "White"
+              }
+            }
+          },
+          {
+            "title": "INNOVATER POTATOES",
+            "image": "/images/blog/innovator.jpeg",
+            "content": {
+                "utilization": "Being used for excellent Chip and French Fry quality.",
+                "yield": "With it’s high yield in widely separated areas, attractive tubers, consistently high specific gravity, Excellent chipping quality and resistance to several pests, Atlantic potato should be a highly valuable round white variety for processing and the fresh market.",
+                "primary_use": "Fresh Market, Chipping.",
+                "availability_harvest": "January Ending to March",
+                "availability_cipc": "February to September with sugar level controlled.",
+              "features": {
+                "shape": "Oval",
+                "size": "45mm to 90mm",
+                "skin": "Rusted ten",
+                "maturity": "90 to 110 Days",
+                "eyes": "Shallow",
+                "flesh": "Yellow"
+              }
+            }
+          }
+      ],
+      "table": [
+        {
+          "title": "LAUCKER POTATOES",
+          "image": "/images/blog/lauker.jpeg",
+          "author": {
+            "name": "Abdullah Al Shifat",
+            "avatar": "/images/author/abdullah.jpg"
+          },
+          "date": "2022-04-04T05:00:00Z",
+          "draft": false,
+          "content": {
+            "utilization": "Easy to cook, floury texture, mild flavor, free from discoloration after cooking. Table Potato. It can be grown both in Kharif and Rabi seasons. It can build up yields rapidly under warmer climate.",
+            "yield": "30 ton per hectare.",
+            "primary_use": "It’s a Table Potato but it can be used for chipping also.",
+            "availability_harvest": "January Ending to March",
+            "availability_cipc": "February to September with sugar level controlled.",
+            "features": {
+              "shape": "Large Round Oval",
+              "size": "45mm to 90mm",
+              "skin": "Smooth",
+              "maturity": "75 to 80 Days",
+              "eyes": "Fleet with prominent eye brows",
+              "flesh": "White"
+            }
+          }
+        },
+        {
+            "title": "COLOMBA POTATOES",
+            "image": "/images/blog/Colomba.jpg",
+            "content": {
+              "utilization": "Easy to cook, texture waxy, mild flavor, occasional discoloration after cooking. Suitable for instant flakes and chips.",
+              "yield": "30 ton per hectare plains, 30 ton per hectare Hill.",
+              "primary_use": "Suitable for instant flakes and chips.",
+              "availability_harvest": "January Ending to March",
+              "availability_cipc": "February to September with sugar level controlled.",
+              "features": {
+                "shape": "Large Oval",
+                "size": "45mm to 90mm",
+                "skin": "Smooth",
+                "maturity": "90 to 110 Days",
+                "eyes": "Fleet",
+                "flesh": "White"
+              }
+            }
+          },
+        {
+            "title": "JYOTI POTATOES",
+            "image": "/images/blog/jyoti.jpeg",
+            "author": {
+              "name": "Abdullah Al Shifat",
+              "avatar": "/images/author/abdullah.jpg"
+            },
+            "date": "2022-04-04T05:00:00Z",
+            "draft": false,
+            "content": {
+              "utilization": "Easy to cook, texture waxy, mild flavor, occasional discoloration after cooking. Suitable for instant flakes and chips.",
+              "yield": "30 ton per hectare plains, 30 ton per hectare Hill.",
+              "primary_use": "Suitable for instant flakes and chips.",
+              "availability_harvest": "January Ending to March",
+              "availability_cipc": "February to September with sugar level controlled.",
+              "features": {
+                "shape": "Large Oval",
+                "size": "45mm to 90mm",
+                "skin": "Smooth",
+                "maturity": "90 to 110 Days",
+                "eyes": "Fleet",
+                "flesh": "White"
+              }
+            }
+          }
+      ]
+    }
+  }
+  

@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Footer = () => {
   const { copyright, footer_content } = config.params;
-  const { email, email2, phone, location,destination } = config.contact_info;
+  const { email, email2, phone,phone1,phone2, location,destination } = config.contact_info;
   return (
     <footer className="">
       <div className="container">
@@ -18,8 +18,8 @@ const Footer = () => {
             {markdownify(footer_content, "p", "mt-3")}
           </div>
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
-            <h3 className="h5">Socials</h3>
-            <div className="mt-5">
+            <h3 className="h5">Contact Us</h3>
+            <div className="mt-5 leading-10">
               {email && (
                 <p>
                   <Link href={`mailto:${email}`}>{email}</Link>
@@ -30,8 +30,11 @@ const Footer = () => {
                   <Link href={`mailto:${email2}`}>{email2}</Link>
                 </p>
               )}
-              {/* social icons */}
-              <Social source={social} className="social-icons mt-5" />
+              {phone && (
+                <><p><Link href={`tel:${phone}`}>{phone}</Link>  <Link href={`tel:${phone1}`}>{phone1}</Link></p>
+                <p> <Link href={`tel:${phone2}`}>{phone2}</Link></p></>
+
+              )}
             </div>
           </div>
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
@@ -51,23 +54,19 @@ const Footer = () => {
             </ul>
           </div>
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
-            <h3 className="h5">Location & Contact</h3>
+            <h3 className="h5">Location & Socials</h3>
             <ul className="mt-5 leading-10">
-              
               <li>
-                
                 <Link href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(destination)}`} target="_blank" rel="noopener noreferrer">
                 {markdownify(location)}
               </Link>
               </li>
-              {phone && (
-                <li>
-                  <Link href={`tel:${phone}`}>{phone}</Link>
-                </li>
-              )}
             </ul>
+              {/* social icons */}
+              <Social source={social} className="social-icons mt-5" />
           </div>
         </div>
+        
         {/* copyright
         <div className=" py-6 text-center">
           {markdownify(copyright, "p", "footer-copy-write")}
